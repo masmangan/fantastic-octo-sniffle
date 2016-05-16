@@ -9,6 +9,9 @@ int main()
     int total = 0;
     FILE *arquivo;
 
+
+    arquivo = fopen("nonono.txt", "r");
+
     for( j = 0 ; j < SIZE ; j++ ) {
         s[j] = 0;
     }
