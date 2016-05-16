@@ -9,17 +9,18 @@ int main()
     int total = 0;
     FILE *arquivo;
 
-
-    arquivo = fopen("nonono.txt", "r");
-
     for( j = 0 ; j < SIZE ; j++ ) {
         s[j] = 0;
     }
 
     // TODO: ler de arquivo!
+    arquivo = fopen("nonono.txt", "r");
+
     s['A']++;
     s['B']++;
     s['A']++;
+
+    fclose(arquivo);
 
     //
 

@@ -1,0 +1,24 @@
+
+https://githowto.com/
+https://git-scm.com/book/pt-br/v1
+
+git clone https://github.com/masmangan/fantastic-octo-sniffle.git
+
+git status
+
+git add freq.c
+git add wc2.c
+
+git status
+
+git commit -m "inicio do exercicio"
+git commit -m "#12"
+
+git status
+
+git pull
+
+git push
+
+MERGE
+BRANCH
